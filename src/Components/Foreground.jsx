@@ -32,11 +32,9 @@ function Foreground() {
   
   const increaseCounter = () => {
     setcounter(counter+1)
-    console.log(counter);
   };
   const descreaseCounter = () => {
     setcounter(counter-1)
-    console.log(counter);
   };
 
   return (

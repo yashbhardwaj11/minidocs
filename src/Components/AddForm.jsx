@@ -35,7 +35,6 @@ function AddForm({ closeModal, addItem, counter }) {
               : null,
             _id: uuidv4(),
           };
-          console.log(newTask);
           addItem(newTask);
           settask("");
           setIsChecked(false);
